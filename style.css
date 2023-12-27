@@ -138,7 +138,7 @@
     word-spacing: 10px;
 }
 
-.section3 {
+/* .section3 {
     height: 700px;
     background-color: rgb(14, 14, 14);
     margin-top: -42px;
@@ -176,6 +176,35 @@
     font-weight: 650;
     line-height: 40px;
     letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40px;
+} */
+
+.section31 {
+    background-color: rgb(14, 14, 14);
+    margin-top: -58px;
+    height: 1500px;
+}
+
+.section31 h2 {
+    color: beige;
+    font-size: 70px;
+    margin-left: 40px;
+    padding-top: 100px;
+}
+
+.section31 p {
+    color: beige;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    word-spacing: 10px;
+}
+
+.section31 h4{
+    color: beige;
+    font-size: 40px;
+    font-weight: 500;
     text-align: left;
     margin-left: 40px;
 }

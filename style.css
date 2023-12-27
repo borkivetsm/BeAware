@@ -13,10 +13,11 @@
 .headerdiv1 {
     color: beige;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; */
     font-size: 25px;
+    margin-left: 100px;
 }
 
 .headerh1 {
@@ -54,7 +55,7 @@
     font-weight: 700;
     line-height: 83px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
     margin-left: 40px;
     padding-top: 100px;
 }
@@ -513,7 +514,7 @@
 
 .section11 {
     background-color: rgba(0,0,0,1);
-    margin-top: -42px;
+    margin-top: -45px;
     height: 1520px;
 }
 
@@ -569,7 +570,7 @@
 .section13 {
     background-color: rgba(133,0,0,1);
     height: 550px;
-    margin-top: -41px;
+    margin-top: -45px;
 }
 
 .section13 h2 {
@@ -630,7 +631,6 @@
     text-align: left;
     margin-left: 40px;
     padding-top: 30px;
-    text-decoration: underline;
 }
 
 .section14 li {

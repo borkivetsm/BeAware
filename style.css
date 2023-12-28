@@ -613,7 +613,7 @@
     line-height: 92px;
     letter-spacing: 0em;
     padding-top: 40px;
-    margin-left: 120px;
+    margin-left: 40px;
 }
 
 
@@ -648,7 +648,6 @@
     /* background-color: rgb(31, 31, 31); */
     margin-top: -50px;
     background-color: rgba(0,0,0,1);
-    height: 700px;
     /* width: 1500px; */
 }
 
@@ -659,13 +658,13 @@
 .footerdiv1 :first-child {
     font-size: 50px;
     padding-top: 40px;
-    color: rgb(72, 103, 255);
+    color: beige;
 }
 
 .footerdiv1 :last-child {
     font-size: 50px;
     margin-top: 0px;
-    color: rgb(255, 226, 40);
+    color: rgb(133,0,0);
 }
 
 .footerdiv2 {
@@ -702,14 +701,15 @@
     height: 35px;
     width: 90px;
     color: white;
-    background-color: rgb(72, 103, 255);
-    border-color: rgb(72, 103, 255);
+    background-color: rgb(133,0,0);
+    border-color: rgb(133,0,0);
     border-radius: 30px;
     margin-left: 50px;
     margin-top: 281px;
 }
 
-/* section {
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 16%, rgba(131,0,0,1) 50%, rgba(0,0,0,1) 84%);
-} */
+.footer p {
+    color: beige;
+    padding-bottom: 20px;
+    text-align: center;
+}

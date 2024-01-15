@@ -145,7 +145,7 @@ body {
 }
 
 .section2 ul {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 .histback {
@@ -216,7 +216,8 @@ body {
 .section4 {
     padding-top: 1px;
     padding-bottom: 1px;
-    background-image: url(./img/sec5.jpg); 
+    background-color: #000000;
+    background-image: url(./img/sec5-2.png); 
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -275,7 +276,6 @@ body {
 }
 
 .rusagr-text {
-    width: 450px;
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
@@ -283,6 +283,35 @@ body {
     border-radius: 25px;
     padding: 35px;
     position: relative;
+}
+
+.rusagr-text-sec {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(133,0,0);
+    border-radius: 25px;
+    padding: 35px;
+    position: relative;
+}
+
+.rusagr-text:first-of-type {
+    width: 600px;
+    top: 50px;
+}
+
+.rusagr-text:nth-of-type(2) {
+   width: 550px;
+   top: 200px;
+}
+
+.rusagr-text-sec:first-of-type {
+    width: 400px;
+    bottom: 150px;
+}
+
+.rusagr-text-sec:nth-of-type(2) {
+    width: 400px;
 }
 
 .sponsor {
@@ -358,6 +387,14 @@ body {
     margin-right: 70px;
 }
 
+.africa-img:nth-child(2) {
+    width: 650px;
+}
+
+.africa-img:first-of-type {
+    width: 400px;
+}
+
 .africa-wrapper {
     display: flex;
     flex-direction: row;
@@ -397,7 +434,27 @@ body {
     flex-direction: row;
 }
 
-.rusafrica-point {
+.rusafrica-wars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rusafrica-wars-text {
+    width: 300px;
+    color: beige;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    border: 5px solid;
+    border-radius: 30px;
+    border-color: rgb(133,0,0);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* .rusafrica-point {
     width: 45px;
     height: 38px;
     position: relative;
@@ -422,11 +479,11 @@ body {
 .rusafrica-point:nth-of-type(4) {
     bottom: 880px;
     left: 1000px;
-}
+} */
 
 .myanmar {
+    background-color: #000000;
     background-image: url(./img/myanmar.jpg);
-    opacity: 1;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 1px;

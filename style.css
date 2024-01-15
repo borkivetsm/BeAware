@@ -387,12 +387,14 @@ body {
     margin-right: 70px;
 }
 
-.africa-img:nth-child(2) {
-    width: 650px;
+.africa-img-first {
+    width: 646px;
+    height: 508px;
 }
 
-.africa-img:first-of-type {
-    width: 400px;
+.africa-img-second {
+    width: 529px;
+    height: 836px;
 }
 
 .africa-wrapper {

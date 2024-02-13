@@ -790,10 +790,11 @@ body {
     
     .header {
         max-width: 100%;
-        background-image: url(./img/headerblurblack.jpg);
+        /* background-image: url(./img/headerblurblack.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: auto; */
+        background-color: #000000;
     }
     
     .headernav {

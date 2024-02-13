@@ -14,11 +14,12 @@ body {
 
 .header {
     /* min-height: 710px;
-    max-width: 100%;
+    width: 100%;
     background-image: url(./img/headerblurblack.jpg);
     background-size: cover;
     background-repeat: no-repeat; */
     background-color: #000000;
+    width: 100%;
 }
 
 .headernav {

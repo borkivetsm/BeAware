@@ -1,3 +1,24 @@
+:root {
+    --white: #ffffff;
+    --red: rgb(133, 0, 0);
+    --font-size-title: 50px;
+    --font-weight-title: 700;
+    --title: 
+        var(--font-size-title)
+        var(--font-weight-title);
+    --bgimg-size: cover;
+    --bgimg-repeat: no-repeat;
+    --bgimg: 
+        var(--bgimg-repeat)
+        var(--bgimg-size);
+    --margin: 10px, 40px;
+    --font-size-text: 25px;
+    --font-weight-text: 300;
+    --text: 
+        var(--font-size-text)
+        var(--font-weight-text);
+}
+
 * {
     font-family: 'Lato', sans-serif;
 }
@@ -21,8 +42,8 @@ body {
     padding-bottom: 1px;
 }
 
-.headernav {
-    color: beige;
+.header-nav {
+    color: var(--white);
     display: flex;
     /* flex-direction: row;
     justify-content: space-evenly;
@@ -32,21 +53,21 @@ body {
     padding-top: 25px;
 }
 
-.headerh1 {
+.header-title {
     margin-left: 100px;
     margin-bottom: 200px;
-    color: beige;
+    color: var(--white);
     font-size: 65px;
     font-weight: 900;
     width: 650px;
 }
 
-.headerh1 a {
+.header-title a {
     text-decoration: none;
-    color: beige;
+    color: var(--white);
 }
 
-.headerh1 a:hover {
+.header-title a:hover {
     color: rgb(149, 13, 13);
 }
 
@@ -63,9 +84,10 @@ body {
 }
 
 .first-title {
-    color: beige;
-    font-size: 45px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 45px;
+    font-weight: 700; */
     line-height: 83px;
     text-align: left;
     margin-left: 40px;
@@ -73,7 +95,7 @@ body {
 }
 
 .first-intro {
-    color: beige;
+    color: var(--white);
     font-size: 40px;
     font-weight: 700;
     line-height: 55px;
@@ -85,18 +107,16 @@ body {
     font-size: 25px;
     font-weight: 800;
     padding: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 10px;
+    margin: var(--margin);
 }
 
 .first-ul {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 60px;
-    border: 10px solid rgb(133,0,0);
+    border: 10px solid var(--red);
     border-radius: 30px;
-    background-color: beige;
+    background-color: var(--white);
     overflow: auto;
 }
 
@@ -110,22 +130,21 @@ body {
 }
 
 .goals-title {
-    color: beige;
+    color: var(--white);
     font-size: 70px;
     margin-left: 40px;
     padding-top: 100px;
 }
 
 .goals-text {
-    color: beige;
-    font-size: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+    color: var(--white);
+    font: var(--text);
+    margin: var(--margin);
     word-spacing: 10px;
 }
 
 .goals-li-title {
-    color: beige;
+    color: var(--white);
     font-size: 40px;
     font-weight: 500;
     text-align: left;
@@ -133,10 +152,9 @@ body {
 }
 
 .goals-li {
-    color: beige;
+    color: var(--white);
     font-size: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: var(--margin);
     text-align: left;
     text-shadow: 0px 0px 100px black;
 }
@@ -152,15 +170,16 @@ body {
 }
 
 .histback-title {
-    color: beige;
-    font-size: 55px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 55px;
+    font-weight: 700; */
     margin-left: 40px;
     margin-top: 52px;
 }
 
 .histback-intro {
-    color: beige;
+    color: var(--white);
     font-size: 30px;
     font-weight: 400;
     margin-left: 40px;
@@ -169,7 +188,7 @@ body {
 }
 
 .histback-rect-title{
-    color: beige;
+    color: var(--white);
     font-size: 30px;
     font-weight: 700;
     padding-left: 26px;
@@ -177,7 +196,7 @@ body {
 }
 
 .histback-info {
-    color: beige;
+    color: var(--white);
     font-size: 20px;
     font-weight: 400;
     line-height: 37px;
@@ -187,7 +206,7 @@ body {
 }
 
 .histback-rect {
-    background-color: rgb(133,0,0);
+    background-color: var(--red);
 }
 
 .histback-rect-container {
@@ -220,10 +239,9 @@ body {
 }
 
 .section4 p {
-    color: beige;
+    color: var(--white);
     font-size: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: var(--margin);
     padding-bottom: 60;
     word-spacing: 10px;
     text-align: left;
@@ -249,7 +267,7 @@ body {
 }
 
 .rusagr-title {
-    color: rgb(133,0,0);
+    color: var(--red);
     font-size: 70px;
     font-weight: 700;
     width: 330px;
@@ -259,7 +277,7 @@ body {
 }
 
 .rusagr-intro {
-    color: beige;
+    color: var(--white);
     font-size: 25px;
     font-weight: 300;
     width: 511px;
@@ -274,9 +292,8 @@ body {
 
 .rusagr-text {
     color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    background-color: rgb(133,0,0);
+    font: var(--text);
+    background-color: var(--red);
     border-radius: 25px;
     padding: 35px;
     position: relative;
@@ -284,9 +301,8 @@ body {
 
 .rusagr-text-sec {
     color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    background-color: rgb(133,0,0);
+    font: var(--text);
+    background-color: var(--red);
     border-radius: 25px;
     padding: 35px;
     position: relative;
@@ -318,9 +334,10 @@ body {
 }
 
 .sponsor-title {
-    color: beige;
-    font-size: 50px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 50px;
+    font-weight: 700; */
     line-height: 92px;
     text-align: left;
     padding-top: 40px;
@@ -346,15 +363,15 @@ body {
 }
 
 .sponsor-text {
-    color: beige;
-    font-size: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+    color: var(--white);
+    font: var(--text);
+    margin: var(--margin);
     line-height: 50px;
     text-align: left;
 }
 
-.sponsor-wrapper .sponsor-text {
+.sponsor-wrapper 
+.sponsor-text {
     width: 600px;
 }
 
@@ -364,9 +381,10 @@ body {
 }
 
 .africa-title {
-    color: beige;
-    font-size: 50px;
-    font-weight: 800;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 50px;
+    font-weight: 800; */
     line-height: 92px;
     text-align: left;
     margin-left: 40px;
@@ -375,21 +393,18 @@ body {
 }
 
 .africa-text {
-    color: beige;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
+    color: var(--white);
+    font: var(--text);
     margin-left: 50px;
     margin-right: 70px;
 }
 
-.africa-img-first {
+.africa-img:first-of-type {
     width: 646px;
     height: 508px;
 }
 
-.africa-img-second {
+.africa-img:nth-of-type(2) {
     width: 529px;
     height: 836px;
 }
@@ -407,17 +422,16 @@ body {
 
 .rusafrica-title {
     color: #FFF;
-    font-size: 50px;
-    font-weight: 700;
+    font: var(--title);
+    /* font-size: 50px;
+    font-weight: 700; */
     margin-left: 50px;
 }
 
 .rusafrica-text {
-    color: beige;
-    font-size: 30px;
-    font-weight: 500;
-    margin-left: 40px;
-    margin-right: 40px;
+    color: var(--white);
+    font: var(--text);
+    margin: var(--margin);
     padding-top: 30px;
     word-spacing: 9px;
     text-align: left;
@@ -441,13 +455,13 @@ body {
 
 .rusafrica-wars-text {
     width: 300px;
-    color: beige;
-    font-size: 20px;
+    color: var(--white);
+    font: var(--text);
     text-align: center;
     padding: 12px;
     border: 5px solid;
     border-radius: 30px;
-    border-color: rgb(133,0,0);
+    border-color: var(--red);
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -490,16 +504,16 @@ body {
 }
 
 .myanmar-title {
-    color: beige;
-    font-size: 50px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 50px;
+    font-weight: 700; */
     text-shadow: 0px 0px 20px #000000;
 }
 
 .myanmar-text {
-    color: beige;
-    font-size: 30px;
-    font-weight: 400;
+    color: var(--white);
+    font: var(--text);
     text-shadow: 0px 0px 20px #000000;
 }
 
@@ -510,9 +524,10 @@ body {
 }
 
 .taiwan-title {
-    color: beige;
-    font-size: 55px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 55px;
+    font-weight: 700; */
 }
 
 .taiwan-wrapper {
@@ -522,9 +537,8 @@ body {
 }
 
 .taiwan-text {
-    color: beige;
-    font-size: 25px;
-    font-weight: 400;
+    color: var(--white);
+    font: var(--text);
 }
 
 .taiwan-img {
@@ -547,15 +561,15 @@ body {
 }
 
 .venezuela-title {
-    color: beige;
-    font-size: 50px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 50px;
+    font-weight: 700; */
 }
 
 .venezuela-text {
-    color: beige;
-    font-size: 30px;
-    font-weight: 400;
+    color: var(--white);
+    font: var(--text);
 }
 
 .venezuela-img {
@@ -572,9 +586,10 @@ body {
 }
 
 .culture-title {
-    color: beige;
-    font-size: 50px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 50px;
+    font-weight: 700; */
     line-height: 92px;
     text-align: left;
     margin-left: 40px;
@@ -582,10 +597,9 @@ body {
 }
 
 .culture-text {
-    color: beige;
-    font-size: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+    color: var(--white);
+    font: var(--text);
+    margin: var(--margin);
     word-spacing: 9px;
     text-align: left;
 }
@@ -612,15 +626,15 @@ body {
 }
 
 .interview-title {
-    color: beige;
-    font-size: 38px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 38px;
+    font-weight: 700; */
 }
 
 .interview-text {
-    color: beige;
-    font-size: 27px;
-    font-weight: 400;
+    color: var(--white);
+    font: var(--text);
 }
 
 .interview-link {
@@ -638,9 +652,10 @@ body {
 }
 
 .help-title {
-    color: beige;
-    font-size: 50px;
-    font-weight: 700;
+    color: var(--white);
+    font: var(--title);
+    /* font-size: 50px;
+    font-weight: 700; */
     line-height: 92px;
     text-align: left;
     margin-left: 40px;
@@ -650,13 +665,13 @@ body {
 .help-text {
     width: 270px;
     /* height: 300px; */
-    color: beige;
-    font-size: 25px;
+    color: var(--white);
+    font: var(--text);
     text-align: center;
     padding: 12px;
     border: 5px solid;
     border-radius: 30px;
-    border-color: rgb(133,0,0);
+    border-color: var(--red);
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -664,8 +679,7 @@ body {
 }
 
 .help-wrapper {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: var(--margin);
     padding-bottom: 60px;
     display: flex;
     flex-direction: row;
@@ -686,7 +700,7 @@ body {
 .footerdiv1 :first-child {
     font-size: 50px;
     padding-top: 40px;
-    color: beige;
+    color: var(--white);
 }
 
 .footerdiv1 :last-child {
@@ -736,7 +750,7 @@ body {
 }
 
 .footer p {
-    color: beige;
+    color: var(--white);
     padding-bottom: 20px;
     text-align: center;
 }
